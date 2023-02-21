@@ -4,6 +4,9 @@
   --cor-primaria: #EEEEEE;
   --cor-secundaria: #E96479;
   --cor-terciaria: #4D455D;
+
+  --fonte-primaria: 'Labrada', serif;
+  --fonte-secundaria: 'DM Sans', sans-serif;
 }
 
 * {
@@ -18,7 +21,7 @@ body {
 }
 
 main {
-  margin: 0 5vw;
+  margin: 0 10vw;
 }
 
 .navegacao {
@@ -26,10 +29,12 @@ main {
   display: flex;
   gap: 100px;
   justify-content: center;
+  position: fixed;
+  width: 100%;
 }
 
 .navegacao__link {
-  font-family: 'DM Sans', sans-serif;
+  font-family: var(--fonte-secundaria);
   font-size: 20px;
   padding: 8px;
   text-decoration: none;
@@ -37,14 +42,21 @@ main {
 }
 
 .apresentacao__home {
-  height: 75vh;
+  height: 70vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: 'Labrada', serif;
+  font-family: var(--fonte-primaria);
   font-size: 24px;
   font-weight: 400;
   text-align: center;
+  padding: 1em 3em 0 3em;
+}
+
+.apresentacao__home__titulo {
+  font-family: var(--fonte-primaria);
+  font-size: 48px;
+  font-weight: 300;
 }
 
 .imagem__home {
@@ -53,42 +65,42 @@ main {
 }
 
 .apresentacao__carta {
-  height: 75vh;
+  height: 70vh;
   text-align: center;
-  font-family: 'Labrada', serif;
+  font-family: var(--fonte-primaria);
   font-size: 24px;
   font-weight: 400;
+  padding: 2em 0 0 0;
 }
 
 .apresentacao__carta__texto {
-  font-family: 'Labrada', serif;
+  font-family: var(--fonte-primaria);
   font-size: 20px;
   font-weight: 300;
-  padding: 1em 1em 0 1em;
+  text-align: justify;
+  padding: 1em 3em 0 3em;
 }
 
 .apresentacao__fotos {
   height: 90vh;
   text-align: center;
-  font-family: 'Labrada', serif;
+  font-family: var(--fonte-primaria);
   font-size: 24px;
   font-weight: 400;
+  padding: 2em 0 0 0;
 }
 
 .imagem__fotos {
   width: 280px;
   align-items: center;
-  padding: 15px 15px 0 15px;
+  padding: 1em 1em 0 1em;
 }
 
 .rodape {
   background-color: var(--cor-secundaria);
   color: var(--cor-terciaria);
-  font-family: 'DM Sans', sans-serif;
+  font-family: var(--fonte-secundaria);
   font-size: 16px;
   padding: 24px;
   text-align: center;
 }
-
-/* font-family: 'Labrada', serif;  300 ou 400 (regular)*/ 
-/* font-family: 'DM Sans', sans-serif; */
