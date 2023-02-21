@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Labrada:wght@300;400&display=swap');
+
+:root {
+  --cor-primaria: #EEEEEE;
+  --cor-secundaria: #E96479;
+  --cor-terciaria: #4D455D;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: var(--cor-primaria);
+  color: var(--cor-secundaria);
+}
+
+main {
+  margin: 0 5vw;
+}
+
+.navegacao {
+  background-color: var(--cor-secundaria);
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+}
+
+.navegacao__link {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 20px;
+  padding: 8px;
+  text-decoration: none;
+  color: var(--cor-terciaria);
+}
+
+.apresentacao__home {
+  height: 75vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Labrada', serif;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.imagem__home {
+  width: 500px;
+  align-items: center;
+}
+
+.apresentacao__carta {
+  height: 75vh;
+  text-align: center;
+  font-family: 'Labrada', serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.apresentacao__carta__texto {
+  font-family: 'Labrada', serif;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 1em 1em 0 1em;
+}
+
+.apresentacao__fotos {
+  height: 90vh;
+  text-align: center;
+  font-family: 'Labrada', serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.imagem__fotos {
+  width: 280px;
+  align-items: center;
+  padding: 15px 15px 0 15px;
+}
+
+.rodape {
+  background-color: var(--cor-secundaria);
+  color: var(--cor-terciaria);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  padding: 24px;
+  text-align: center;
+}
+
+/* font-family: 'Labrada', serif;  300 ou 400 (regular)*/ 
+/* font-family: 'DM Sans', sans-serif; */
