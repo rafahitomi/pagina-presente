@@ -1,0 +1,2 @@
+pesquisar media queries (configurar uma propriedade de acordo com o tamanho da tela)
+responsividade

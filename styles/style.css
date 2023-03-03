@@ -3,7 +3,7 @@
 :root {
   --cor-primaria: #EEEEEE;
   --cor-secundaria: #E96479;
-  --cor-terciaria: #4D455D;
+  --cor-terciaria: #FFFFFF;
 
   --fonte-primaria: 'Labrada', serif;
   --fonte-secundaria: 'DM Sans', sans-serif;
@@ -20,80 +20,73 @@ body {
   color: var(--cor-secundaria);
 }
 
-main {
-  margin: 0 10vw;
-}
-
 .navegacao {
   background-color: var(--cor-secundaria);
   display: flex;
-  gap: 100px;
+  gap: 12rem;
   justify-content: center;
   position: fixed;
   width: 100%;
+  padding: 0.5rem 0;
 }
 
 .navegacao__link {
   font-family: var(--fonte-secundaria);
   font-size: 20px;
-  padding: 8px;
+  padding: 0.5rem;
   text-decoration: none;
   color: var(--cor-terciaria);
 }
 
+main {
+  margin: 0 15vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .apresentacao__home {
-  height: 70vh;
+  margin: 0 4vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-family: var(--fonte-primaria);
-  font-size: 24px;
   font-weight: 400;
+  font-size: 20px;
   text-align: center;
-  padding: 1em 3em 0 3em;
+  padding-top: 5rem;
 }
 
 .apresentacao__home__titulo {
   font-family: var(--fonte-primaria);
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 300;
 }
 
 .imagem__home {
-  width: 500px;
-  align-items: center;
+  width: 40%;
 }
 
-.apresentacao__carta {
-  height: 70vh;
+.apresentacao__titulo {
+  padding: 2.5em 0 0 0;
   text-align: center;
   font-family: var(--fonte-primaria);
   font-size: 24px;
   font-weight: 400;
-  padding: 2em 0 0 0;
 }
 
 .apresentacao__carta__texto {
   font-family: var(--fonte-primaria);
   font-size: 20px;
   font-weight: 300;
-  text-align: justify;
+  text-align: center;
   padding: 1em 3em 0 3em;
 }
 
-.apresentacao__fotos {
-  height: 90vh;
-  text-align: center;
-  font-family: var(--fonte-primaria);
-  font-size: 24px;
-  font-weight: 400;
-  padding: 2em 0 0 0;
-}
-
 .imagem__fotos {
-  width: 280px;
+  width: 30%;
   align-items: center;
-  padding: 1em 1em 0 1em;
+  padding: 1em 0.5rem 3em 0.5rem;
 }
 
 .rodape {
@@ -101,6 +94,6 @@ main {
   color: var(--cor-terciaria);
   font-family: var(--fonte-secundaria);
   font-size: 16px;
-  padding: 24px;
+  padding: 1.5rem;
   text-align: center;
 }
