@@ -13,4 +13,4 @@ Ao final do curso "HTML e CSS: cabeçalho, footer e variáveis CSS" da Alura (es
 
 ## 📌 Link
 
-[Página Presente](pagina-presente-rose.vercel.app) - Verifique no dispositivo móvel e desktop.
+[Página Presente](https://pagina-presente-rose.vercel.app/) - Verifique no dispositivo móvel e desktop.
