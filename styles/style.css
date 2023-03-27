@@ -158,3 +158,31 @@ main {
     font-size: 40px;
   }
 }
+
+@media screen and (max-width: 412px) {
+  main {
+    margin: 0 3rem;
+  }
+
+  .navegacao {
+    gap: 3rem;
+  }
+
+  .apresentacao__home {
+    font-size: 12px;
+  }
+
+  .apresentacao__home__titulo {
+    font-size: 35px;
+  }
+
+  .imagem__home {
+    padding-top: 1rem;
+    width: 90%;
+  }
+
+  .imagem__fotos {
+    width: 70%;
+    padding: 0.5em 0.5rem 0.5em 0.5rem;
+  }
+}
